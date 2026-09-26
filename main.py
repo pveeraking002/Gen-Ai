@@ -8,7 +8,7 @@ from openai import OpenAI
 
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("GROQ_API_KEY"))
+client = OpenAI(api_key="")
 
 app = FastAPI(title="AI Chatbot API")
 

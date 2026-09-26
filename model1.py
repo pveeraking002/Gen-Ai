@@ -8,7 +8,7 @@ load_dotenv()
 llm = ChatGroq(
     model="openai/gpt-oss-120b",
     temperature=0,
-    api_key=os.getenv("")
+    api_key=""
 )
 
 qus = input("Enter your Question: ")
